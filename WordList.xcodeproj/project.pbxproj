@@ -14,6 +14,15 @@
 		96E2B112207F052E00B7816B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E2B110207F052E00B7816B /* LaunchScreen.storyboard */; };
 		96E2B11D207F052E00B7816B /* WordListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2B11C207F052E00B7816B /* WordListTests.swift */; };
 		96E2B128207F052E00B7816B /* WordListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2B127207F052E00B7816B /* WordListUITests.swift */; };
+		96E2B139207F057200B7816B /* fin.png in Resources */ = {isa = PBXBuildFile; fileRef = 96E2B136207F057100B7816B /* fin.png */; };
+		96E2B13A207F057200B7816B /* title_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 96E2B137207F057100B7816B /* title_logo.png */; };
+		96E2B13B207F057200B7816B /* word_blank.png in Resources */ = {isa = PBXBuildFile; fileRef = 96E2B138207F057100B7816B /* word_blank.png */; };
+		96E2B13D207F966100B7816B /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2B13C207F966100B7816B /* QuestionViewController.swift */; };
+		96E2B13F207F978500B7816B /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2B13E207F978500B7816B /* FinishViewController.swift */; };
+		96E2B143207F97B000B7816B /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2B142207F97B000B7816B /* AddViewController.swift */; };
+		96E2B145207F9A0600B7816B /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2B144207F9A0600B7816B /* ListTableViewController.swift */; };
+		96E2B14A207FBBF800B7816B /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E2B148207FBBF800B7816B /* ListTableViewCell.swift */; };
+		96E2B14B207FBBF800B7816B /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96E2B149207FBBF800B7816B /* ListTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		96E2B123207F052E00B7816B /* WordListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96E2B127207F052E00B7816B /* WordListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListUITests.swift; sourceTree = "<group>"; };
 		96E2B129207F052E00B7816B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96E2B136207F057100B7816B /* fin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fin.png; sourceTree = "<group>"; };
+		96E2B137207F057100B7816B /* title_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_logo.png; sourceTree = "<group>"; };
+		96E2B138207F057100B7816B /* word_blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = word_blank.png; sourceTree = "<group>"; };
+		96E2B13C207F966100B7816B /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		96E2B13E207F978500B7816B /* FinishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
+		96E2B142207F97B000B7816B /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		96E2B144207F9A0600B7816B /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		96E2B148207FBBF800B7816B /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		96E2B149207FBBF800B7816B /* ListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +119,15 @@
 				96E2B109207F052E00B7816B /* ViewController.swift */,
 				96E2B10B207F052E00B7816B /* Main.storyboard */,
 				96E2B10E207F052E00B7816B /* Assets.xcassets */,
+				96E2B135207F057100B7816B /* WordList素材 */,
 				96E2B110207F052E00B7816B /* LaunchScreen.storyboard */,
 				96E2B113207F052E00B7816B /* Info.plist */,
+				96E2B13C207F966100B7816B /* QuestionViewController.swift */,
+				96E2B13E207F978500B7816B /* FinishViewController.swift */,
+				96E2B142207F97B000B7816B /* AddViewController.swift */,
+				96E2B144207F9A0600B7816B /* ListTableViewController.swift */,
+				96E2B148207FBBF800B7816B /* ListTableViewCell.swift */,
+				96E2B149207FBBF800B7816B /* ListTableViewCell.xib */,
 			);
 			path = WordList;
 			sourceTree = "<group>";
@@ -123,6 +148,16 @@
 				96E2B129207F052E00B7816B /* Info.plist */,
 			);
 			path = WordListUITests;
+			sourceTree = "<group>";
+		};
+		96E2B135207F057100B7816B /* WordList素材 */ = {
+			isa = PBXGroup;
+			children = (
+				96E2B136207F057100B7816B /* fin.png */,
+				96E2B137207F057100B7816B /* title_logo.png */,
+				96E2B138207F057100B7816B /* word_blank.png */,
+			);
+			path = "WordList素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +267,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96E2B13A207F057200B7816B /* title_logo.png in Resources */,
 				96E2B112207F052E00B7816B /* LaunchScreen.storyboard in Resources */,
+				96E2B13B207F057200B7816B /* word_blank.png in Resources */,
 				96E2B10F207F052E00B7816B /* Assets.xcassets in Resources */,
 				96E2B10D207F052E00B7816B /* Main.storyboard in Resources */,
+				96E2B139207F057200B7816B /* fin.png in Resources */,
+				96E2B14B207FBBF800B7816B /* ListTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +298,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96E2B14A207FBBF800B7816B /* ListTableViewCell.swift in Sources */,
 				96E2B10A207F052E00B7816B /* ViewController.swift in Sources */,
+				96E2B13F207F978500B7816B /* FinishViewController.swift in Sources */,
+				96E2B143207F97B000B7816B /* AddViewController.swift in Sources */,
+				96E2B145207F9A0600B7816B /* ListTableViewController.swift in Sources */,
 				96E2B108207F052E00B7816B /* AppDelegate.swift in Sources */,
+				96E2B13D207F966100B7816B /* QuestionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
